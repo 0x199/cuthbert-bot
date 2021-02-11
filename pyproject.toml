@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cuthbert-bot"
+version = "0.1.0"
+description = ""
+authors = ["SlimShadyIAm"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"discord.py" = "^1.6.0"
+humanize = "^3.2.0"
+pytimeparse = "^1.1.8"
+APScheduler = "^3.7.0"
+python-dotenv = "^0.15.0"
+pymongo = "^3.11.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
